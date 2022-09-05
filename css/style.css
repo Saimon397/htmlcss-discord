@@ -49,6 +49,14 @@ header {
     margin-left: 10px;
 }
 
+.button3 {
+    background-color: rgb(142, 161, 225);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
 .space-button {
     padding-top: 50px;
 }
@@ -103,8 +111,8 @@ header nav ul {
     padding: 50px 0px;
 }
 
-.margin-top90 {
-    margin-top: 90px;
+.margin-top {
+    margin-top: 100px;
 }
 
 .left-box {
@@ -133,10 +141,6 @@ header nav ul {
 
 #space {
     margin-top: 10px;
-}
-
-.margin300 {
-    margin-top: 300px;
 }
 
 .box-grey {
@@ -175,6 +179,81 @@ header nav ul {
     padding: 50px 0px;
     text-align: center;
     background-color: rgb(246, 246, 246);
-
 }
 
+.center-box {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.center-box h2 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.center-box p {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(35, 39, 42);
+    min-height: 100px;
+}
+
+li img {
+    width: 30px;
+}
+
+li {
+    color: white;
+    padding: 5px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+hr {
+    width: 80%;
+    margin: 25px auto;
+    border: 0.5px solid rgb(114, 137, 218);
+    background-color: rgb(114, 137, 218);
+}
+
+.flexfooter {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+li h4{
+    color: rgb(114, 137, 218);
+}
+
+li h3{
+    color: rgb(114, 137, 218);
+    padding-bottom: 10px;
+}
+
+.flexfooter .button3 {
+    border-radius: 20px;
+    padding: 10px 10px;
+}
