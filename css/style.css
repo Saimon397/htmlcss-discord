@@ -184,6 +184,7 @@ header nav ul {
 .center-box {
     width: 70%;
     margin: 0 auto;
+    margin-bottom: 6 0px;
 }
 
 .center-box h2 {
@@ -206,7 +207,7 @@ h3 {
     align-items: flex-start;
     width: 80%;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 footer {
@@ -244,16 +245,30 @@ hr {
     padding-bottom: 50px;
 }
 
-li h4{
+li h4 {
     color: rgb(114, 137, 218);
 }
 
-li h3{
+li h3 {
     color: rgb(114, 137, 218);
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+li i {
+    width: 30px;
+    height: 30px;
+}
+
+.flex-container li a:hover {
+    text-decoration: underline;
 }
 
 .flexfooter .button3 {
     border-radius: 20px;
     padding: 10px 10px;
+}
+
+.button:hover {
+    text-decoration: ;
 }
