@@ -32,7 +32,7 @@ header {
     text-decoration: none;
 }
 
-.button-accedi:hover { 
+.button-accedi:hover {
     color: rgb(114, 137, 218);
     box-shadow: 0 1px rgb(204, 202, 202);
 }
