@@ -232,6 +232,13 @@ h3 {
     padding-top: 60px;
 }
 
+.flex-container img {
+    height: 19px;
+    width: 27px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
 footer {
     width: 100%;
     background-color: rgb(35, 39, 42);
