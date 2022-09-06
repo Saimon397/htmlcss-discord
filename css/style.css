@@ -130,6 +130,16 @@ header nav ul {
 .mainbox {
     width: 100%;
     padding: 50px 0px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.mainbox2 {
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+    background-color: rgb(246, 246, 246);
+    margin: 0 auto;
 }
 
 .margin-top {
@@ -180,6 +190,7 @@ header nav ul {
     align-items: center;
     flex-direction: row-reverse;
     background-color: rgb(246, 246, 246);
+    max-width: 1170px;
 }
 
 .right-box h2 {
@@ -204,9 +215,10 @@ header nav ul {
 }
 
 .center-box {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     margin-bottom: 6 0px;
+    max-width: 1170px;
 }
 
 .center-box h2 {
